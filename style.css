@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+    /* border: 1px solid red; */
+}
+
+h1,
+h2 {
+    font-family: "Merienda", cursive;
+}
+
+p,
+h3 {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    border: none;
+}
+
+
+.align {
+    padding: 0 3rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.componentSpacing {
+    padding: 1.5rem 0;
+}
+
+/* hero section starts */
+
+.heroContainer {
+    background-image: linear-gradient(90deg, white, transparent 70%), url(./assets/images/hero.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 120vh;
+}
+
+.heroJumbotron {
+    padding: 6rem 3rem;
+}
+
+.heroJumbotron h1 {
+    font-size: 4.2rem;
+    font-weight: 900;
+}
+
+.heroJumbotron p {
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+.heroJumbotron button {
+    border: none;
+    background-color: #be9c79;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+
+.heroJumbotron button a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.heroJumbotron button:hover {
+    background-color: black;
+}
+
+
+/* hero section end */
+
+/* our menu starts */
+
+.ourMenuJumbotron h2 {
+    width: 75%;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.ourMenuJumbotron p {
+    font-size: 16px;
+    width: 78%;
+}
+
+.ourMenuJumbotron button {
+    border: none;
+    background-color: #be9c79;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+
+.ourMenuJumbotron button a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.ourMenuJumbotron button:hover {
+    background-color: black;
+}
+
+/* our menu end */
+
+/* Our facility starts */
+
+.headingTitle img {
+    width: 180px;
+    height: 40px;
+}
+
+.heading {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.facilityCardBody h3 {
+    font-size: 22px;
+}
+
+.facilityCardBody p {
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+/* Our facility end */
+
+/* popularContainer starts */
+
+.popularHead {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.popularCardHeader img {
+    width: 95%;
+    height: auto;
+    margin-top: 0.5rem;
+}
+
+.popularContainer {
+    padding: 0 4rem;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.popularCardBody h3 {
+    font-size: 20px;
+}
+
+/* popularContainer end */
+
+/* gallery starts */
+.galleryHead {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.galleryCardHeader img {
+    aspect-ratio: 12/9;
+    padding: 7px 5px;
+}
+
+/* gallery end */
+
+/* team starts */
+
+.teamContainer {
+    padding: 0 5rem;
+}
+
+.teamHead {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+/* team end */
+
+/* contactus starts */
+
+.conHead {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.bookingForm {
+    border: 1px solid black;
+    width: 90%;
+    padding: 20px 0;
+}
+
+.bookingForm input {
+    width: 90%;
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.bookingForm button {
+    border: none;
+    background-color: #be9c79;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+
+.bookingForm button {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.bookingForm button:hover {
+    background-color: black;
+}
+
+/* contactus end */
+
+/* copyrights starts */
+
+.iconsCardHeader i {
+    font-size: 2.4rem;
+    padding: 16px;
+    background-color: #be9c79;
+    color: white;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+}
+
+.iconsCardBody h3,
+p {
+    font-size: 20px;
+}
+
+.iconsBody {
+    margin-top: 10px;
+}
+
+.copyright p {
+    font-size: 1.3rem;
+}
+
+.copyright p span {
+    color: #be9c79;
+}
+
+/* copyrights starts */
+
+
+
+
+
+/* @media(width <=576px) {
+
+    .headingTitle img {
+        height: auto;
+        width: 35%;
+    }
+
+    .ourMenuJumbotron h2 {
+        font-size: 2rem !important;
+    }
+
+    .ourMenuJumbotron P {
+        font-size: 1.3rem;
+    }
+
+    .ourMenuJumbotron button {
+        padding: 1rem 2.5rem 1rem 2.5rem;
+    }
+
+    .galleryCard img {
+        width: 75%;
+    }
+
+    .teamCard img {
+        width: 75%;
+    }
+
+    .bookingForm {
+        width: 100% !important;
+        margin: auto;
+        padding: 10px 0;
+        border: 1px solid black;
+    }
+
+}
+
+@media(width>=576.2px) and (width<=768px) {
+    .headingTitle img {
+        height: auto;
+        width: 30%;
+    }
+
+    .iconsCardBody h3 {
+        font-size: 1.2rem;
+    }
+
+    .iconsCardBody p {
+        font-size: 1.2rem !important;
+    }
+
+
+} */
